@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="<?= base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/font.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
+
+    <title>Survay Script</title>
+    <style>
+        .header.py-3 {
+            background: #002447;
+        }
+
+        .logo img {
+            width: 200px;
+            margin: auto;
+            display: block;
+        }
+
+        .survey-center {
+            width: 100%;
+            margin: auto;
+            max-width: 400px;
+            display: block;
+        }
+
+        .survey-center p {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 100;
+            margin: 0;
+        }
+
+        .survey-center h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 0.35em;
+            line-height: 1.2;
+        }
+
+        .lm-btn {
+            padding: 20px 50px;
+            border: none;
+            border-radius: 34px;
+            width: 200px;
+            margin: auto;
+            display: block;
+            background: #002447;
+            color: white;
+        }
+
+        .card.card-disable .card-survey {
+            opacity: 0.5;
+            filter: blur(1px);
+        }
+
+        .card a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .card.card-disable:hover::after {
+            opacity: 1;
+        }
+
+        .card.card-disable::after {
+            content: "Survey Deactivate";
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 0 24px;
+            text-align: center;
+            line-height: 1.2;
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper w-100">
+        <div class="header py-3">
+            <div class="logo">
+                <a href="<?= base_url() ?>">
+                    <img src="<?= base_url() ?>assets/images/eninrac-white.png" alt="eninrac Logo">
+                </a>
+            </div>
+        </div>
+        <div class="container py-5">
+            <?php
+            if ($survayText != "") {
+                echo "<div class='survey-center py-5 text-center'>
+                    <p>" . $survayText['title'] . "</p>
+                    <h1>" . $survayText['sub-title'] . "</h1>
+                </div>";
+            } else {
+                echo '<div class="survey-center py-5 text-center">
+                    <p>Dashboard</p>
+                    <h1>Vision Board Survey</h1>
+                </div>';
+            }
+            ?>
+            <div class="row py-3">
+                <?php
+                if ($categories != "") {
+                    foreach ($categories as $categoriy) {
+                        $link = "JavaScript:void(0)";
+                        $linkClass = "card-disable";
+                        if ($categoriy['status'] == 'active') {
+                            $link = $categoriy['link'];
+                            $linkClass = "";
+                        }
+                        echo "<div class='col-md-2'>
+                            <div class='card mb-3 " . $linkClass . " position-relative'>
+                            <a href='" . $link . "'>
+                                <div class='card-survey'>
+                                    <div class='card-body p-4'>
+                                        <h5 class='card-title text-center'>" . $categoriy['name'] . "</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>";
+                    }
+                }
+                ?>
+            </div>
+
+
+            <!-- <button class="lm-btn">LOAD MORE</button> -->
+        </div>
+    </div>
+    <script src="<?= base_url() ?>assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

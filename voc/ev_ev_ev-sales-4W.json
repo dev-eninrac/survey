@@ -1,0 +1,252 @@
+{
+    "1": {
+        "question": "What will be the quantum of EV penetration in 4-W Cars by 2030 in India?",
+        "type": "single-selection",
+        "option": {
+            "1": "<10%",
+            "2": "10%-20%",
+            "3": "20%-30%",
+            "4": ">30%"
+        }
+    },
+    "2": {
+        "question": "Which region shall be the leading region in driving EV penetration in 4-W Cars by 2030 in India?",
+        "type": "single-selection",
+        "option": {
+            "1": "Northern",
+            "2": "Western",
+            "3": "Eastern",
+            "4": "Southern"
+        }
+    },
+    "3": {
+        "question": "Which state/UT shall be the leading state in Northern region driving EV penetration in 4-W Cars by 2030 in India?",
+        "type": "single-selection",
+        "option": {
+            "1": "Rajasthan",
+            "2": "Delhi",
+            "3": "Haryana",
+            "4": "Uttar Pradesh"
+        }
+    },
+    "4": {
+        "question": "Which state/UT shall be the leading state in Southern region driving EV penetration in 4-W Cars by 2030 in India?",
+        "type": "single-selection",
+        "option": {
+            "1": "Karnataka",
+            "2": "Tamil Nadu",
+            "3": "Andhra Pradesh",
+            "4": "Telangana"
+        }
+    },
+    "5": {
+        "question": "Which state/UT shall be the leading state in Eastern region driving EV penetration in 4-W Cars by 2030 in India?",
+        "type": "single-selection",
+        "option": {
+            "1": "West Bengal",
+            "2": "Odisha",
+            "3": "Bihar",
+            "4": "Jharkhand"
+        }
+    },
+    "6": {
+        "question": "Which state/UT shall be the leading state in Western region driving EV penetration in 4-W Cars by 2030 in India?",
+        "type": "single-selection",
+        "option": {
+            "1": "Maharashtra",
+            "2": "Gujarat",
+            "3": "Madhya Pradesh",
+            "4": "Chhattisgarh"
+        }
+    },
+    "7": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "8": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "9": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "10": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "11": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "12": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "13": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "14": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "15": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "16": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "17": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "18": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "19": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "20": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "21": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "22": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "23": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "24": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "25": {
+        "question": "Name of the commuter",
+        "type": "single-selection",
+        "option": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    }
+}
